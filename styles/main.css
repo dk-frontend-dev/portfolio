@@ -1,11 +1,20 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: black;
+  font-family: "thicccboi";
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -14,7 +23,153 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
   list-style: none;
+}
+
+@font-face {
+  font-family: "thicccboi";
+  src: url(../fonts/THICCCBOI-Regular.woff2);
+}
+
+:root {
+  --main-color: #ff694b;
+  --secondary-color: #757683;
+}
+
+.container {
+  padding: 0 200px 0 200px;
+}
+.logo--img {
+  border: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.nav--menu {
+  display: flex;
+}
+.nav--menu a {
+  font-size: 18px;
+}
+.nav--menu a:hover {
+  color: var(--main-color);
+  transition: all 0.25s;
+}
+.nav--menu li + li {
+  padding-left: 54px;
+}
+.call {
+  padding: 20px 35px 20px 35px;
+  background-color: var(--main-color);
+  border: none;
+  font-size: 18px;
+  box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+}
+.call a {
+  color: #fff;
+}
+
+.header--main__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--main {
+  padding-top: 170px;
+  align-items: center;
+  display: flex;
+  width: 336px;
+}
+.header--main:hover {
+  opacity: 0.75;
+  transition: all 0.25s;
+}
+.header--main div {
+  width: 50px;
+  height: 1px;
+  background: var(--main-color);
+}
+.header--main a {
+  padding-left: 15px;
+  color: var(--main-color);
+  font-size: 18px;
+}
+.header--info h1 {
+  padding-top: 15px;
+  width: 556px;
+  font-size: 80px;
+}
+.horizontal--line {
+  display: flex;
+}
+.horizontal--line div {
+  margin-top: 25px;
+  width: 1px;
+  height: 130px;
+  background: #c8c8c8;
+}
+.header--paragraph {
+  padding: 33px 0 50px 20px;
+  width: 340px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 30px;
+}
+.hire--me img {
+  padding-bottom: 50px;
+}
+.hire--me img:hover {
+  opacity: 0.75;
+  transition: all 0.25s;
+}
+.big--line {
+  width: 412px;
+  height: 1px;
+  background: #c8c8c8;
+}
+.working {
+  padding-top: 20px;
+  color: var(--secondary-color);
+  font-size: 14px;
+}
+.header__our--progects {
+  padding-top: 200px;
+}
+.our--progects div {
+  width: 35px;
+  height: 1px;
+  background: var(--secondary-color);
+}
+.our--progects {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.our {
+  font-size: 16px;
+  color: var(--secondary-color);
+  padding-left: 8px;
+}
+.portfolio--landing {
+  font-size: 19px;
+}
+.microsoft {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.explore {
+  font-size: 18px;
+  color: var(--main-color);
+  text-decoration: underline;
+}
+.explore:hover {
+  opacity: 0.75;
+  transition: all 0.25s;
 }
