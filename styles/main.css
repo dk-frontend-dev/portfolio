@@ -19,6 +19,15 @@ p {
   padding: 0;
 }
 
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -43,9 +52,13 @@ li {
 }
 
 .container {
-  padding: 0 10px 0 10px;
+  padding: 0 15px;
   max-width: 1520px;
   margin: 0 auto;
+}
+
+.header__burger {
+  display: none;
 }
 
 .logo-img {
@@ -212,43 +225,4 @@ li {
 .explore:hover {
   opacity: 0.75;
   transition: all 0.25s;
-}
-
-@media (max-width: 1515px) {
-  .background-img {
-    width: 40%;
-  }
-}
-
-@media (max-width: 1230px) {
-  .background-img {
-    display: none;
-  }
-  .header__our-progects {
-    flex: 0 1 200px;
-  }
-}
-
-@media (max-width: 788px) {
-  .call {
-    padding: 15px 20px 15px 20px;
-  }
-}
-
-@media (max-width: 745px) {
-  .header-main__info {
-    flex-wrap: wrap;
-  }
-  .header__our-progects {
-    padding-top: 40px;
-  }
-  .hire-me img {
-    padding: 25px 0 25px 0;
-  }
-}
-
-@media (max-width: 560px) {
-  .header-info h1 {
-    font-size: 55px;
-  }
 }
