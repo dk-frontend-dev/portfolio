@@ -168,7 +168,7 @@ li {
 
 .working {
   border-top: 1px solid var(--grey-color);
-  max-width: 412px;
+  width: 412px;
   padding-top: 20px;
   color: var(--secondary-color);
   font-size: 14px;
@@ -225,4 +225,35 @@ li {
 .explore:hover {
   opacity: 0.75;
   transition: all 0.25s;
+}
+
+.main {
+  padding-top: 220px;
+}
+
+.payment-site {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-first p {
+  color: var(--secondary-color);
+}
+
+.block-first b {
+  display: block;
+  font-size: 28px;
+  width: 237px;
+  padding: 10px 0 66px 0;
+}
+
+.block-second p {
+  color: var(--secondary-color);
+}
+
+.block-second b {
+  display: block;
+  font-size: 28px;
+  width: 237px;
+  padding: 10px 0 66px 0;
 }

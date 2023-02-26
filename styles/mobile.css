@@ -4,6 +4,48 @@
   }
 }
 
+@media (max-width: 1325px) {
+  .payment-site {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .block-first p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block-first b {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .block-first img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block-second p {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .block-second b {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .block-second img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1230px) {
   .background-img {
     display: none;
@@ -25,12 +67,63 @@
     flex-wrap: wrap;
   }
 
+  .header-info h1 {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .main-line {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header-info {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header-paragraph {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .working {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+
   .header__our-progects {
     padding-top: 40px;
+    flex: auto;
   }
 
   .hire-me img {
     padding: 25px 0 25px 0;
+  }
+
+  .our-line {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .portfolio-landing {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .microsoft {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .explore {
+    display: flex;
+    text-align: center;
+    justify-content: center;
   }
 }
 
@@ -54,7 +147,7 @@
     height: 3px;
     width: 100%;
     background-color: #000;
-    transition: .3s ease-in transform, .3s ease-in opacity, .3s margin;
+    transition: 0.3s ease-in transform, 0.3s ease-in opacity, 0.3s margin;
   }
 
   .header__burger.active span:nth-child(2) {
@@ -82,7 +175,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: .2s ease-in transform;
+    transition: 0.2s ease-in transform;
     transform: translate(100%, 0);
   }
 
