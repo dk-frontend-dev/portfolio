@@ -4,6 +4,9 @@
   }
 }
 
+@media (max-width: 1370px) {
+}
+
 @media (max-width: 1325px) {
   .payment-site {
     justify-content: center;
@@ -53,6 +56,34 @@
 
   .header__our-progects {
     flex: 0 1 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .advantages img {
+    display: none;
+  }
+
+  .advantages-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .advantages-years {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advantages-info h1 {
+    display: flex;
+    text-align: center;
+  }
+
+  .advantages-blocks {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -189,6 +220,17 @@
 
   ul.nav-menu a {
     color: #fff;
+  }
+}
+
+@media (max-width: 660px) {
+  .advantages-blocks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages-block__second {
+    padding-top: 30px;
   }
 }
 
