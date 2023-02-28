@@ -87,6 +87,26 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .first-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .second-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+
+  .row-block {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 976px) {
+}
+
 @media (max-width: 788px) {
   .call {
     padding: 15px 20px 15px 20px;

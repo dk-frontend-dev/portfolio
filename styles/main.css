@@ -350,3 +350,42 @@ li {
   width: 90px;
   color: var(--secondary-color);
 }
+
+.our-services h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  padding-top: 160px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 110px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+.row-title {
+  display: flex;
+  align-items: center;
+}
+
+.row-title h3 {
+  padding-left: 25px;
+  width: 170px;
+}
+
+.row-block p {
+  color: var(--secondary-color);
+  width: 310px;
+  padding-top: 23px;
+}
+
+.arrow {
+  padding-top: 36px;
+}
