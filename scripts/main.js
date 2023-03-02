@@ -7,3 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
     menu.classList.toggle('active')
   })
 })
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  navigation: {
+    nextEl: '.button-next',
+    prevEl: '.button-prev',
+  },
+});

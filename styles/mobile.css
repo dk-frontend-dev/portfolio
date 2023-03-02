@@ -2,6 +2,14 @@
   .background-img {
     width: 40%;
   }
+
+  .news-main {
+    flex-wrap: wrap;
+  }
+
+  .news-main__block:last-child {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 1370px) {
@@ -57,6 +65,19 @@
   .header__our-progects {
     flex: 0 1 200px;
   }
+
+  .computer {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1156px) {
+  .explore-services {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -85,6 +106,24 @@
     display: flex;
     justify-content: center;
   }
+
+  .advantages-years__block {
+    margin-right: 10px;
+  }
+
+  .advantages-years__block:last-child {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .news-main__block {
+    margin-bottom: 50px;
+  }
+  .news-main__block:last-child {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -102,9 +141,70 @@
   .row-block {
     padding-top: 50px;
   }
+
+  .computer {
+    display: none;
+  }
+
+  .any-project__title h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .any-project__title h2 {
+    display: flex;
+    text-align: center;
+  }
+
+  .any-project__title p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .any-project__button {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 976px) {
+@media (max-width: 900px) {
+  .education-experience {
+    flex-wrap: wrap;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .education {
+    width: 100%;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-mail {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 45px;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .footer-nav li + li {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 788px) {
@@ -197,7 +297,7 @@
   .header__burger span {
     height: 3px;
     width: 100%;
-    background-color: #000;
+    background-color: var(--black-color);
     transition: 0.3s ease-in transform, 0.3s ease-in opacity, 0.3s margin;
   }
 
